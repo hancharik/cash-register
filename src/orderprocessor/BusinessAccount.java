@@ -15,14 +15,16 @@ public class BusinessAccount {
     double creditLimit;
     
     public BusinessAccount(){
-    
+   
+        bankAccount = 0.00;
+        
     }
 
     
     
-   public void addMoney(){
+   public void addMoney(double amount){
        
-       
+       bankAccount = bankAccount + amount;
    } 
     
     

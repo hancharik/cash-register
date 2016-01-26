@@ -11,13 +11,41 @@ package orderprocessor;
  */
 public class Item {
     
-    int amount;
-    double price;
+    private int amount;
+    private double price;
     
     public Item(){
         
-        
-        
+        amount = 1000;
+        price = 10.00;
     }
+  
     
-}
+  public double getItemPrice(){
+      
+     return price; 
+      
+      
+  } 
+    
+    
+    
+      public void setItemPrice( double newPrice){
+      
+    price = newPrice;
+      
+      
+    } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}  //end
